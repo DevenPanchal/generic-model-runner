@@ -1,4 +1,6 @@
 # Generic/H2O Model Runner
+[![DOI](https://zenodo.org/badge/175893173.svg)](https://zenodo.org/doi/10.5281/zenodo.13836078)
+
 
 In the application.properties file under resources directory, the property, model\_type, defines the type of model runner this is. If model_type is defined and the value is G, then this is a generic Java Model Runner, invoking generic models internally; otherwise, this is a H2O Model Runner, running H2O models instead.
 
